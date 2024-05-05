@@ -1,0 +1,53 @@
+@import "../base/variables.less";
+
+.page-inner__title-wrapper {
+  padding-top: 45px;
+  padding-bottom: 34px;
+  text-align: center;
+
+  @media @tablet {
+    padding-top: 92px;
+    padding-bottom: 38px;
+  }
+
+  @media @desktop {
+    padding-bottom: 49px;
+  }
+}
+
+.page-inner__title {
+  margin: 0 auto;
+  max-width: 500px;
+  line-height: 30px;
+
+  @media @tablet {
+    font-size: 18px;
+  }
+
+  @media @desktop {
+    max-width: 800px;
+  }
+}
+
+.page-inner__title-fill {
+  display: none;
+
+  @media @tablet {
+    display: inline;
+  }
+}
+
+.page-inner__title-see {
+  @media @tablet {
+    display: none;
+  }
+
+  @media @desktop {
+    display: inline;
+  }
+}
+
+
+.page-inner__form-feedback {
+  margin: 0 auto;
+}
