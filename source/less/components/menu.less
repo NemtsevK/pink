@@ -15,7 +15,9 @@
   }
 
   &--closed {
-    display: none;
+    @media (max-width: @tablet-max-width) {
+      display: none;
+    }
   }
 }
 
