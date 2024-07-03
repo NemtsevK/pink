@@ -275,4 +275,3 @@ function init(ymaps) {
   map.geoObjects.add(placemark);
   map.controls.add(zoomControl);
 }
-
