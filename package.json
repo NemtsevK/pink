@@ -1,9 +1,9 @@
 {
   "name": "pink",
-  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/nemtsev-k)",
+  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/NemtsevK)",
   "description": "Личный проект «Пинк»",
-  "homepage": "https://nemtsev-k.github.io/pink/",
-  "repository": "https://github.com/nemtsev-k/pink",
+  "homepage": "https://nemtsevk.github.io/pink/",
+  "repository": "https://github.com/NemtsevK/pink",
   "private": true,
   "type": "module",
   "devDependencies": {
@@ -54,7 +54,7 @@
     "source/less/**/*.less"
   ],
   "engines": {
-    "node": "^20.14.0",
-    "npm": "^10.7.0"
+    "node": "^20.15.1",
+    "npm": "^10.8.2"
   }
 }
